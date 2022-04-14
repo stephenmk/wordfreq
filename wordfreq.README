@@ -1,0 +1,40 @@
+A few words of explanation of the "wordfreq" file.
+
+In 1998 I was contacted by Alexandre Girardi who was at that time
+a graduate student at NAIST (Shikano-lab). He had been using my EDICT
+file and also had access to online copies of the previous 4 years of the
+Mainichi Shimbun. He had processed (all?, part?) of the newspaper material 
+through a morphological analyzed and produced a word-list with Part-of-
+Speech and frequency attached. Initially he was interested in getting
+relative frequency data into the EDICT file.
+
+Alexandre sent me a copy of the file with about 300,000 words marked. He
+asked me just to use it myself until he could get clearance to release it.
+He didn't get back to me.
+
+Some years later I tracked him down (he was in Belgium working) and asked
+him if it was OK to release the file. He replied: "Yes, you can release it.
+In fact you can use the whole data, because it is already in the public
+domain."
+
+So here it is, exactly as Alexandre produced it. 
+
+The format appears to be:
+
+	word+pos[TAB]frequency
+
+The pos number relates to the POS category in the "wordtype" file.
+
+Everything is in EUC coding.
+
+I have also added a file called "word_freq_k" which has the kanji-only
+words which appear 16 or more times. It has ~38,000 lines. In this the fields
+are tab-delimited.
+
+The words in the file show the expected bias in newspapers, i.e.
+words relating to politics, etc. occur quite often. Also they reflect
+the time period of the newspaper articles, with words like "Clinton"
+occurring more often than is the case now.
+
+Jim Breen
+May 2003
